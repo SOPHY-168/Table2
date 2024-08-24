@@ -1,0 +1,30 @@
+table{
+    border: solid #ddd;
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8pc rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+th{
+    background-color: green;
+    padding: 20px;
+}
+tr,td{
+    border: 2px solid #ddd;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.U{
+    color: rgba(255, 0, 0, 0.651);
+    background-color: rgb(245, 121, 160);
+}
+.M{
+    color: rgba(255, 0, 0, 0.651);
+    background-color: rgb(245, 121, 160);
+}
+tr:hover{
+    background-color: gainsboro;
+}
